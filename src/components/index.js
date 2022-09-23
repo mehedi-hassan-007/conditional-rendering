@@ -8,6 +8,7 @@ class Conditional_rendering extends Component{
             islogin: true
         }
     }
+    
     render () {
         const islogin = this.state;
         return(
