@@ -8,6 +8,8 @@ import Bootstrap from './components/reactbootstrap/Bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import State from './components/state-setstate/State';
 import Event_handler from './components/event-handler-class/Event-handler';
+import Event_binding from './components/Event-binding/Event_binding';
+import Dynamic_stylling from './components/dynamic-styling/dynamic_stylling';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Bootstrap />
       <State />
       <Event_handler />
+      <Event_binding />
+      <Dynamic_stylling />
     </div>
   );
 }
